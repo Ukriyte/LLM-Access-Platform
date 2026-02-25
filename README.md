@@ -20,7 +20,6 @@ This platform acts as an **AI Gateway**. Its primary objective is to provide a s
 
 ## 🏗 System Architecture
 
-[Image of a software architecture diagram showing a user portal, admin portal, and a model wrapper layer connecting to a database and LLM providers]
 
 ```text
 Frontend (React )
@@ -140,7 +139,6 @@ CREATE TABLE refresh_tokens (
 
 ### 🔑 API Routes
 
-[cite_start]Full API documentation is available via **Swagger** at `/api-docs` when running the application locally[cite: 138].
 
 | Module | Method | Endpoint | Description |
 | :--- | :--- | :--- | :--- |
