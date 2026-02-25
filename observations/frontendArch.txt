@@ -1,0 +1,14 @@
+frontend/
+ ├── pages/
+ │    Login.jsx
+ │    Chat.jsx
+ │    Admin.jsx
+ │
+ ├── components/
+ │    ChatBox.jsx
+ │    UsageBar.jsx
+ │
+ ├── api/
+ │    api.js (axios instance)
+ │
+ └── App.jsx

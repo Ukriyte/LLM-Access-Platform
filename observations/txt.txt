@@ -1,0 +1,33 @@
+if multiple user logs in at 11:58 pm and consume all there tokens for the day, they should be able to access the new tokens on 11:58 pm of the next day and not 
+3 minutes after. This is done to avoid too many requests//optional
+
+logging in with multiple instances should delete all refresh tokens on logout//optional
+
+right now the daily/weekly reset is based on utc timings of day and month end, what is the 
+appropriate reset logic//optional
+
+streaming can be added//optional
+
+input Validation
+
+Rate limiting
+
+logout-all endpoint
+
+Analytics endpoints: 
+{
+Right now your system can:
+
+track usage per request
+
+track usage per user
+
+enforce limits
+
+But admin cannot see:
+
+overall system usage trends
+
+Analytics endpoints = APIs that give dashboard data.
+
+}

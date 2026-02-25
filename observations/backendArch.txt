@@ -1,0 +1,65 @@
+backend/
+
+│
+
+├── src/
+
+│   ├── controllers/
+
+│   │   ├── auth.controller.js
+
+│   │   └── user.controller.js
+
+│   │
+
+│   ├── services/
+
+│   │   ├── auth.service.js
+
+│   │   ├── token.service.js
+
+│   │   └── usage.service.js
+
+│   │
+
+│   ├── middleware/
+
+│   │   └── auth.middleware.js
+
+│   │
+
+│   ├── utils/
+
+│   │   ├── fileDB.js
+
+│   │   ├── jwt.js
+
+│   │   └── hash.js
+
+│   │
+
+│   ├── routes/
+
+│   │   ├── auth.routes.js
+
+│   │   └── user.routes.js
+
+│   │
+
+│   └── app.js
+
+│
+
+├── data/
+
+│   ├── users.json
+
+│   ├── usage_logs.json
+
+│   └── refresh_tokens.json
+
+│
+
+├── package.json
+
+└── server.js
