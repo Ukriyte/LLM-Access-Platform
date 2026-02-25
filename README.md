@@ -17,6 +17,13 @@ This platform acts as an **AI Gateway**. Its primary objective is to provide a s
 * **Admin Oversight**: A comprehensive portal to manage users and monitor usage history.
 
 ---
+<img width="1875" height="720" alt="Screenshot 2026-02-25 221936" src="https://github.com/user-attachments/assets/ec24d908-a2ff-4e2e-97b6-9de8d526c862" />
+
+<img width="1651" height="868" alt="Screenshot 2026-02-25 222005" src="https://github.com/user-attachments/assets/5fda3e49-4b41-4ee9-a0f7-154ca6552606" />
+<img width="1916" height="963" alt="usage analytics" src="https://github.com/user-attachments/assets/bd3ece70-d60b-4823-99a9-a7cfe70209d8" />
+
+<img width="1915" height="956" alt="chat 2" src="https://github.com/user-attachments/assets/5baf16bd-12f0-4c7c-981d-be0c74ec56d5" />
+
 
 ## 🏗 System Architecture
 
