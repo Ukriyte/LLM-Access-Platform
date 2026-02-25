@@ -1,65 +1,47 @@
 backend/
-
 │
-
 ├── src/
-
+│   │
+│   ├── config/
+│   │   ├── db.js
+│   │   └── modelMapping.js
+│   │
 │   ├── controllers/
-
 │   │   ├── auth.controller.js
-
-│   │   └── user.controller.js
-
+│   │   ├── user.controller.js
+│   │   ├── admin.controller.js
+│   │   └── model.controller.js
 │   │
-
 │   ├── services/
-
 │   │   ├── auth.service.js
-
 │   │   ├── token.service.js
-
-│   │   └── usage.service.js
-
+│   │   ├── usage.service.js
+│   │   ├── model.service.js
+│   │   └── admin.service.js
 │   │
-
 │   ├── middleware/
-
-│   │   └── auth.middleware.js
-
+│   │   ├── auth.middleware.js
+│   │   ├── role.middleware.js
+│   │   └── rateLimit.middleware.js
 │   │
-
-│   ├── utils/
-
-│   │   ├── fileDB.js
-
-│   │   ├── jwt.js
-
-│   │   └── hash.js
-
+│   ├── repositories/
+│   │   ├── user.repo.js
+│   │   ├── usage.repo.js
+│   │   └── refreshToken.repo.js
 │   │
-
 │   ├── routes/
-
 │   │   ├── auth.routes.js
-
-│   │   └── user.routes.js
-
+│   │   ├── user.routes.js
+│   │   ├── admin.routes.js
+│   │   └── model.routes.js
 │   │
-
+│   ├── utils/
+│   │   ├── jwt.js
+│   │   ├── hash.js
+│   │   └── tokenCounter.js
+│   │
 │   └── app.js
-
 │
-
-├── data/
-
-│   ├── users.json
-
-│   ├── usage_logs.json
-
-│   └── refresh_tokens.json
-
-│
-
 ├── package.json
-
+├── .env
 └── server.js
